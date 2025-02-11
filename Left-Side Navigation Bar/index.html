@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left-Side Navigation Bar</title>
+    <link rel="stylesheet" href="styles.css ">
+    <script src="https://kit.fontawesome.com/3a733a0bdc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <i class="fa-solid fa-ellipsis-vertical" id="btn1"></i>
+        <i class="fa-solid fa-caret-left" id="btn2"></i>
+        <input onclick="toggle()" type="checkbox" name="checkbox" id="checkbox">
+        <!--Tarkistettu-->
+        <ul>
+            <a href="#">
+                <li>
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <p>Home</p>
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    <i class="fa-solid fa-sun"></i>
+                    <p>Summer</p>
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    <i class="fa-brands fa-canadian-maple-leaf"></i>
+                    <p>Autumn</p>
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    <i class="fa-solid fa-snowflake"></i>
+                    <p>Winter</p>
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    <i class="fa-solid fa-seedling"></i>
+                    <p>Spring</p>
+                </li>
+            </a>
+        </ul>
+        <a href="#">
+            <div class="end">
+                <i class="fa-solid fa-gears"></i>
+                <p>Settings</p>
+            </div>
+        </a>
+    </nav>
+    <script src="./javascipt.js"></script>
+</body>
+</html>
